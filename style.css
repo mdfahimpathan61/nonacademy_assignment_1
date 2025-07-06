@@ -1,0 +1,428 @@
+body{
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.logo h1{
+    font-family: cursive;
+    color:rgb(29, 137, 252);
+    border: 5px double rgb(16, 131, 254);
+    padding: 10px;
+    /* font-size: 25px; */
+    font-weight: bolder;
+}
+
+
+.action_btn li{
+    list-style: none;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    
+    color: grey;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.action_btn ul{
+    display: flex;
+    align-items: center;
+   gap: 30px;
+}
+.action_btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.action_btn li:hover{
+    color: rgb(29, 137, 252);
+    text-shadow: 1px 1px 1px rgb(128, 188, 251);
+    font-size: 22px;
+}
+.btn{
+    border: 1px solid rgb(29, 137, 252);
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(29, 137, 252);
+}
+.btn:hover{
+    background-color: rgb(29, 137, 252);
+    color: white;
+    box-shadow: 2px 2px 2px rgb(136, 190, 249);
+   
+    
+}
+.banner{
+    background-color: rgb(254, 250, 244);
+    padding-top:10px ;
+    padding-bottom:10px ;
+    margin: 20px 0px;
+    
+}
+.banner_main{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    
+}
+.banner_main img{
+    width: 35%;
+    justify-content: flex-end;
+   
+}
+.banner_text{
+    width: 40%;
+    
+}
+ p{
+    color: rgb(151, 150, 150);
+    font-size: 16px;
+}
+.banner_text h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.clint{
+    text-align: center;
+   margin:100px auto;
+    width: 80%;
+
+    
+}
+.clint h1{
+    font-size: 32px;
+}
+.clint_logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:  50px 0px;
+}
+.clint_logo img{
+    height: 40px;
+}
+.clint p{
+    margin-bottom: 25px;
+}
+
+
+.explore{
+    text-align: center;
+    width: 80%;
+    margin: 200px auto ;
+}
+.exlore_img{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 70px;
+   
+
+}
+.box{
+    box-shadow: 2px 3px 2px 2px rgb(240, 240, 240);
+    width: 20%;
+    padding: 25px;
+    border-radius: 4px;
+}
+
+.activity{
+     background-color: rgb(254, 250, 244);
+     padding: 50px;
+    
+}
+.activity_div{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     width: 80%;
+     margin: auto;
+}
+.contant{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.contant img{
+    height: 34px;
+    
+}
+.future{
+    text-align: center;
+    width: 80%;
+    margin:100px auto ;
+}
+.future_hero{
+    height: auto;
+    width: 270px;
+}
+.all_hero{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+    
+}
+
+.hero_img{
+    height: 220px;
+    width: 200px;
+    box-shadow: 1px 1px 1px 1px rgb(231, 230, 230);
+    border-radius: 4px;
+    padding: 20px;
+    padding-top: 30px;
+    text-align: center;
+    /* border: 1px solid gray; */
+    margin: auto;
+    background-color: rgb(236, 242, 247);
+    
+}
+
+.hero_box{
+    width: 180px;
+    height: 150px;
+    background-color: rgb(255, 252, 248);
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    bottom: 100px;
+    margin: auto ;
+    text-align: center;  
+   
+}
+
+.hero_box:hover{
+    background-color: rgb(255, 245, 231);
+}
+
+
+
+.contact-container {
+  display: flex;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  gap: 30px;
+}
+
+.contact-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+
+
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-left h3 {
+  margin: 0 0 10px;
+}
+
+.footer-center .footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-center .footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-center .footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-right .social-icons a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+
+.logo {
+    font-family: cursive;
+    color:rgb(29, 137, 252);
+    /* border: 5px double rgb(16, 131, 254); */
+    padding: 10px;
+    /* font-size: 25px; */
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Reponsive part */
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .action_btn ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .action_btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner_main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner_text,
+  .banner_main img {
+    width: 90%;
+  }
+
+  .clint_logo {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .exlore_img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 80%;
+  }
+
+  .activity_div {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .all_hero {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-image,
+  .contact-form {
+    width: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-center .footer-links {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo h1,
+  .footer-left h1 {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .banner_text h1,
+  .explore h1,
+  .future h1 {
+    font-size: 22px;
+  }
+
+  .box,
+  .hero_box {
+    width: 60%;
+  }
+}
