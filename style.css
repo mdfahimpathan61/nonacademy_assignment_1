@@ -143,7 +143,11 @@ a {
 .activity{
      background-color: rgb(254, 250, 244);
      padding: 50px;
+     
     
+}
+.activity_text{
+    text-align: center;
 }
 .activity_div{
      display: flex;
